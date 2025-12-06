@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Application</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #283c86, #45a247);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        .container {
+            background: rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+            width: 350px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+
+        .logo {
+            width: 90px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 15px;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        .download-btn {
+            text-decoration: none;
+            background: #ffcc00;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 18px;
+            color: black;
+            font-weight: bold;
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+        .download-btn:hover {
+            background: #ffdb4d;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 25px;
+            font-size: 13px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="logo" src="https://cdn-icons-png.flaticon.com/512/906/906334.png" alt="App Icon">
+
+        <h1>TCP Chat Application </h1>
+        <p>Click the button below to download the latest version of the application.</p>
+
+        <!-- DOWNLOAD BUTTON -->
+        <a class="download-btn" href="ChatRoomAppInstaller.exe" download>Download EXE</a>
+
+        <footer>
+            © 2025 Your Company | All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
